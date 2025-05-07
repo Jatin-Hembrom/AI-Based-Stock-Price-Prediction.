@@ -1,0 +1,28 @@
+Requirements:
+1. Create a Virtual Environment (Recommended)
+It's best to isolate project dependencies using a virtual environment.
+
+Using Python 3.8+, run the following in your terminal (or use PyCharm's interface):
+>>python -m venv venv
+
+ For Windows:
+  >>venv\Scripts\activate
+
+For Macos/Linux:
+ >>source venv/bin/activate
+
+
+2.  Install Dependencies:
+pip install
+ >>yfinance
+ >>streamlit
+ >>pandas
+>> numpy 
+>>scikit-learn
+ >>tensorflow 
+>>keras
+>>matplotlib 
+>>statsmodels
+
+3. 🚀 Run the App (if Streamlit app):
+>> streamlit run app.py
